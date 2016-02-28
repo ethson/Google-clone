@@ -2,22 +2,29 @@
 }
 
 div {
-    display:block;
+    display: block;
 }
 
 ul {
     list-style-type:none;
     float: right;
-    right: 20px;
+    padding-right:20px;
+    border: 1px dashed black;
+    margin-top:0px;
 }
 
 .sprite_buttons div {
     background-image: url("http://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
     background-repeat: no-repeat;
     background-size:528px 68px;
-    height: 25px; width: 25px;
+    height: 20px; width: 20px;
     padding:0;
     display:block;
+}
+
+.navbar {
+    float:top;
+    display: block;
 }
 
 li {
@@ -25,40 +32,70 @@ li {
     border-radius:20px;
     font-size: 13px;
     height:25px;
+    padding-right:8px;
     font-family: arial, sans-serif;
+
+    border:1px dashed red;
 }
 
 #button {
-    background-position: -136px -40px;
+    margin-bottom:-10px;
+    padding-bottom:-10px;
+    vertical-align:middle;
+    background-position: -136px -41px;
 }
 
 #bell {
-    background-position: -191px -18px;
+    background-position: -194.5px -21px;
     background-color: rgba(0,0,0,.55);
     border-radius: 100%
 }
 
-#main_piece {
-    top:85px;
-    height:300px;
-    position:relative;
-    border:2px dotted blue;
+#prof_pic {
+    width:30px; height:30px;
+    border-radius:100%;
+    background-color: #0000b3;
 }
 
-#logo {
-    top:25px; left:42.6%;
-    padding-top: 80px;
+ul p{
+    text-align:center;
+    line-height:30px;
+    font-size:14px;
+}
+
+#center_of_page{
     position: absolute;
+    top: 70px;
+    border: 1px dotted red;
+    width:100%;
+    margin: 0 auto;
+    margin-left:-8px;
+}
+
+#main_piece {
+    width:15%;
+    vertical-align: auto;
+    margin: 0 auto;
+    position: relative;
+    margin-top:121px;
+    bottom: 50%;
+    border:2px dotted blue;
+}
+/*
+#logo {
+    padding-top: 83px;
+    padding-left: 400px;
+    position: relative;
     margin-left:auto; margin-right:auto;
     vertical-align: middle;
 }
-
+*/
 table {
     width:100px;
     position: relative;
+    vertical-align: auto;
     padding-top:30px;
     bottom: 20px;
-    left: 34.2%;
 }
 
 .sButton {
