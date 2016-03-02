@@ -5,8 +5,8 @@
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
     <body OnLoad="document.search.search_term.focus()";>
-    
-        <div class="navbar2">
+
+        <div id="navbar">
             <div class="navObj"><p style="opacity:0.55">Ethson</p></div>
             <div class="navObj"><p>Gmail</p></div>
             <div class="navObj"><p>Images</p></div>
@@ -24,30 +24,12 @@
                 <div id="prof_pic"><p style="color:white">E</p></div>
             </div>
         </div>
-        <!--
-        <div class="navbar">
-            <ul>
-                <li>Ethson</li>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li class="sprite_buttons">
-                    <a href="">
-                        <div id="button"></div>
-                    </a>
-                </li>
-                <li class="sprite_buttons">
-                                    </li>
-                <li>
-                <div id="prof_pic"><p style="color:white">E</p></div>
-                </li>
-            </ul>
-        </div>
-        --!>
+
         <div id="center_of_page">
             <div id="main_piece">
                 <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
             </div>
-            <div>
+            <div id="search_form">
                 <form action="#" method="GET" name="search">
                     <table>
                         <tr>
@@ -57,7 +39,7 @@
                         </tr>
                         <tr align="center">
                             <td>
-                                <input class="sButton" type="submit" name="btnK" value="Google Search">
+                                <input id="search_button" class="sButton" type="submit" name="btnK" value="Google Search">
                             </td>
                             <td>
                                 <input class="sButton" type="submit" name="btnI" value="I'm Feeling Lucky">
@@ -66,6 +48,10 @@
                     </table>
                 </form>
             </div>
+        </div>
+
+        <div id="bot_bar">
+            <p></p>
         </div>
     </body>
 </html>
