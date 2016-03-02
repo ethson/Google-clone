@@ -5,14 +5,6 @@ div {
     display: block;
 }
 
-ul {
-    list-style-type:none;
-    float: right;
-    padding-right:20px;
-    border: 1px dashed black;
-    margin-top:0px;
-}
-
 .sprite_buttons div {
     background-image: url("http://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
     background-repeat: no-repeat;
@@ -22,40 +14,22 @@ ul {
     display:block;
 }
 
-.navbar {
-    float:top;
-    display: block;
-    left: 50px;
-}
-
 .navbar2 {
     float: right;
     display: block;
-    width: 300px;
+    width: 310px;
     left: 50px;
     vertical-align: middle;
-    border: 2px dotted red;
     font-family: arial, sans-serif;
     font-size: 13.5px;
+    margin-top:8px;
 }
 
 .navObj{
     display: inline-block;
     height:25px;
     vertical-align: middle;
-    margin: 0;
-    border: 1px dashed blue;
-}
-
-li {
-    display: inline-block;
-    border-radius:20px;
-    font-size: 13px;
-    height:25px;
-    padding-right:8px;
-    font-family: arial, sans-serif;
-
-    border:1px dashed red;
+    margin: 0 12px 0 0;
 }
 
 #button {
@@ -69,29 +43,33 @@ li {
 #bell {
     background-position: -194.5px -21px;
     background-color: rgba(0,0,0,.55);
-    border-radius: 100%
+    border-radius: 100%;
+    margin-top: 4px;
 }
 
 #prof_pic {
-    width:30px; height:30px;
+    width:35px; height:35px;
     border-radius:100%;
     background-color: #004C99;
     text-align:center;
     vertical-align: middle;
     margin: 0 0 0 0;
 }
+
+#prof_pic p{
+    font-size:16px;
+    vertical-align: middle;
+    padding-top: 4px;
+    margin-top: -5px;
+}
+
 div div p {
     text-align:center;
     vertical-align: middle;
     margin:0;
     line-height:25px;
-    font-size:14px;
-}
-
-ul p{
-    text-align:center;
-    line-height:30px;
-    font-size:14px;
+    font-size:13px;
+    opacity: 0.8;
 }
 
 #center_of_page{
