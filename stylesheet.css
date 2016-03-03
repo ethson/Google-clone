@@ -89,19 +89,25 @@ div div p {
 }
 
 #main_piece {
-    width:15%;
-    vertical-align: auto;
-    margin: 0 auto;
+    width:33%;
+    vertical-align: middle;
+    margin: 121px 0 0 0;
+    left: 34%;
     position: relative;
-    margin-top:121px;
     bottom: 50%;
+}
+
+#main_piece div{
+    width: 272px;
+    right:50%;
+    margin-left: auto; margin-right: auto;
 }
 
 #search_form {
     width:33%;
     margin-top:20px;
     vertical-align: middle;
-    left: 34%;
+    left:34%;
     position:relative;
 }
 
